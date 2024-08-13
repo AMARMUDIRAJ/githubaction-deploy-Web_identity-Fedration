@@ -37,8 +37,8 @@ jobs:
       - id: auth
         uses: google-github-actions/auth@v2.0.0
         with:
-          workload_identity_provider:
-          service_account: 
+          workload_identity_provider: 'projects/434890494661/locations/global/workloadIdentityPools/github-demo-pool/providers/github'
+          service_account: 'amamr-terrafom-cicd@my-dev-project-399904.iam.gserviceaccount.com'
 
       
       # Runs a single command using the runners shell
